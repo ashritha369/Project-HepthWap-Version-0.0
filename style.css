@@ -1,6 +1,7 @@
 body {
-  background-color: white;
+  background-color: black;
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
+  color: white;
 }
 .logo {
   height: 4.4rem;
@@ -42,6 +43,8 @@ header {
 }
 .about-gif {
   width: 100%;
+  /* background-color: black; */
+  border-radius: 50px;
 }
 .about-text-box {
   justify-content: center;
@@ -61,7 +64,7 @@ header {
   list-style: none;
 }
 .icon {
-  color: purple;
+  color: gold;
 }
 /* setting vertical space */
 li:not(:last-child) {
