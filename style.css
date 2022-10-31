@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
 }
 .logo {
   height: 4.4rem;
@@ -31,4 +32,38 @@ header {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: rgb(255, 189, 255);
+}
+/* ABOUT SECTION */
+.section-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  border: 2px solid gold;
+}
+.about-gif {
+  width: 100%;
+}
+.about-text-box {
+  justify-content: center;
+}
+#bigger-font {
+  font-size: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.span-color-gold {
+  color: goldenrod;
+}
+.medium-font {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.icons-list {
+  list-style: none;
+}
+.icon {
+  color: purple;
+}
+/* setting vertical space */
+li:not(:last-child) {
+  margin-bottom: 5px;
 }
