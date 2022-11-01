@@ -47,7 +47,7 @@ header {
   border-radius: 50px;
 }
 .about-text-box {
-  justify-content: center;
+  text-align: center;
 }
 #bigger-font {
   font-size: 4rem;
@@ -69,4 +69,92 @@ header {
 /* setting vertical space */
 li:not(:last-child) {
   margin-bottom: 5px;
+}
+/* PROJECTS */
+.section-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid gold;
+  max-width: 130rem;
+}
+
+.project-div {
+  border: 2px solid plum;
+  margin: 1.4rem;
+  border-radius: 10px;
+}
+/* selecting the parent class of img */
+.project-div img {
+  width: 100%;
+  border-radius: 10px;
+}
+#word-rise-purple {
+  color: plum;
+}
+#word-ckm-green {
+  color: greenyellow;
+}
+#word-sai-orange {
+  color: orange;
+}
+.project-name {
+  text-align: center;
+}
+.project-description {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+/* BUTTON VIEW PROJECT HEALTHYRISE */
+#project-link {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+#button-view-healthyrise {
+  background-color: black;
+  color: plum;
+  border: 2px solid plum;
+  border-radius: 5px;
+  margin: 2rem;
+  height: 2rem;
+  width: 10rem;
+  font-size: large;
+}
+#button-view-healthyrise:hover {
+  background-color: purple;
+  color: white;
+}
+/* BUTTON VIEW PROJECT CHIKMAGALORE EXPLORER */
+
+#button-view-ckmExplorer {
+  background-color: black;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+  margin: 2rem;
+  height: 2rem;
+  width: 10rem;
+  font-size: large;
+}
+#button-view-ckmExplorer:hover {
+  background-color: green;
+  color: white;
+}
+/* BUTTON VIEW PROJECT SAI ACCESSORIES */
+
+#button-view-saiAccessories {
+  background-color: black;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin: 2rem;
+  height: 2rem;
+  width: 10rem;
+  font-size: large;
+}
+#button-view-saiAccessories:hover {
+  background-color: orangered;
+  color: white;
 }
