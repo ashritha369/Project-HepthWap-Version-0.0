@@ -35,7 +35,7 @@ header {
   color: rgb(255, 189, 255);
 }
 /* ABOUT SECTION */
-.section-about {
+.section-about .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
@@ -71,7 +71,7 @@ li:not(:last-child) {
   margin-bottom: 5px;
 }
 /* PROJECTS */
-.section-projects {
+.section-projects .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid gold;
@@ -157,4 +157,51 @@ li:not(:last-child) {
 #button-view-saiAccessories:hover {
   background-color: orangered;
   color: white;
+}
+/* TESTIMONIALS SECTION */
+
+.section-testimonials .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid gold;
+  padding: 2rem;
+}
+.testmonial-box {
+  margin: 1rem;
+  border: 2px solid plum;
+  border-radius: 5px;
+  position: relative;
+}
+.profile-picture-div {
+  position: absolute;
+  top: -5%;
+  left: 45%;
+}
+.profile-picture {
+  border-radius: 50%;
+  border: 2px solid gold;
+}
+.feedback-box {
+  padding: 3rem;
+}
+i.fa.fa-quote-left {
+  color: gold;
+}
+
+i.fa.fa-quote-right {
+  color: gold;
+}
+.feedback-person-name {
+  color: gold;
+  text-align: right;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+.feedback-from-person {
+  font-size: 1.4rem;
+}
+.heading-of-section {
+  color: gold;
+  font-size: xx-large;
+  text-align: center;
 }
