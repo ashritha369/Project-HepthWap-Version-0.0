@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: beige;
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
 }
@@ -42,6 +42,12 @@ header {
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
   border: 2px solid gold;
+  background-color: black;
+}
+.heading-of-about {
+  color: black;
+  font-size: xx-large;
+  text-align: center;
 }
 .about-gif {
   width: 100%;
@@ -78,8 +84,13 @@ li:not(:last-child) {
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid gold;
   max-width: 130rem;
+  background-color: black;
 }
-
+.heading-of-projects {
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+}
 .project-div {
   border: 2px solid plum;
   margin: 1.4rem;
@@ -167,6 +178,7 @@ li:not(:last-child) {
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid gold;
   padding: 2rem;
+  background-color: black;
 }
 .testmonial-box {
   margin: 1rem;
@@ -203,13 +215,13 @@ i.fa.fa-quote-right {
   font-size: 1.4rem;
 }
 .heading-of-testimonials {
-  color: gold;
+  color: black;
   font-size: xx-large;
   text-align: center;
 }
 /* CONTACT US */
-.heading-of-about-us {
-  color: gold;
+.heading-of-contact-us {
+  color: black;
   font-size: xx-large;
   text-align: center;
 }
@@ -217,6 +229,7 @@ i.fa.fa-quote-right {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 2px solid gold;
+  background-color: black;
 }
 
 .our-working-process-box,
@@ -257,4 +270,53 @@ i.fa.fa-quote-right {
   font-size: x-large;
   color: gold;
   margin-top: 0.8rem;
+}
+.email-id-box {
+  margin: 1.5rem;
+  display: flex;
+}
+.email-id {
+  color: plum;
+  margin: auto 5px;
+  font-size: x-large;
+}
+.email-icon {
+  color: gold;
+  font-size: xx-large;
+}
+.form {
+  background-color: plum;
+  border-radius: 10px;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-element {
+  margin: 2rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  height: 1.5rem;
+  background-color: rgb(255, 253, 242);
+}
+.textarea {
+  margin: 2rem;
+  border: 2px solid gold;
+  border-radius: 5px;
+  background-color: rgb(255, 253, 242);
+}
+.contact-submit-button {
+  background-color: gold;
+  height: 2.5rem;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: purple;
+  margin: 2rem;
+  border-radius: 8px;
+  border: 2px solid gold;
+}
+.contact-submit-button:hover {
+  background-color: purple;
+  color: gold;
+  border: 2px solid purple;
 }
