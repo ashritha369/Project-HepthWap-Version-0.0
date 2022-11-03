@@ -3,6 +3,8 @@ body {
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
 }
+
+/* HEADER */
 .logo {
   height: 4.4rem;
 }
@@ -200,8 +202,59 @@ i.fa.fa-quote-right {
 .feedback-from-person {
   font-size: 1.4rem;
 }
-.heading-of-section {
+.heading-of-testimonials {
   color: gold;
   font-size: xx-large;
   text-align: center;
+}
+/* CONTACT US */
+.heading-of-about-us {
+  color: gold;
+  font-size: xx-large;
+  text-align: center;
+}
+.section-contact-us .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid gold;
+}
+
+.our-working-process-box,
+.contact-form-box {
+  border: 2px solid plum;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.heading-of-working-process {
+  text-align: center;
+  font-size: xx-large;
+  color: plum;
+}
+.steps-box {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.circle {
+  /* background-color: plum; */
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  /*  centering a child div horizontally,  under parent div(list-circle-and-rectangle-main-box ) */
+  margin: 0 auto;
+  border: 5px solid plum;
+}
+.rectangle {
+  height: 4rem;
+  width: 0.5rem;
+  background-color: plum;
+  /*  centering a child div horizontally,  under parent div(list-circle-and-rectangle-main-box ) */
+  margin: 0 auto;
+}
+
+.process {
+  height: 7rem;
+  padding-left: 0.2rem;
+  font-size: x-large;
+  color: gold;
+  margin-top: 0.8rem;
 }
