@@ -8,6 +8,9 @@ body {
 .logo {
   height: 4.4rem;
 }
+nav.main-nav {
+  margin: 1rem;
+}
 
 header {
   background-color: black;
@@ -319,4 +322,72 @@ i.fa.fa-quote-right {
   background-color: purple;
   color: gold;
   border: 2px solid purple;
+}
+
+/* FOOTER */
+
+.footer-box {
+  margin-top: 1rem;
+  background-color: black;
+  border: 2px solid gold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.color-gold {
+  color: gold;
+}
+.copyright-text {
+  font-size: large;
+}
+/* ------------------------------------------ */
+/* vertically aligning span of # copyright  under parent div copyright-div */
+
+/* PARENT DIV */
+.copyright-div {
+  display: table;
+}
+/* CHILD DIV */
+#copyright {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* PARENT DIV */
+.full-form-of-hepthwap-div {
+  display: table;
+}
+/* CHILD DIV */
+.full-form-of-hepthwap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* PARENT DIV */
+.logo-div {
+  text-align: center;
+  margin: auto 0;
+}
+
+img#footer-logo {
+  height: 3rem !important;
+}
+/* ------------------------------------------ */
+
+.color-plum {
+  color: plum;
+}
+.hepth_wap {
+  margin: 1rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.social-media-links-div,
+.copyright-div,
+.full-form-of-hepthwap-div,
+.logo-div {
+  text-align: center;
 }
