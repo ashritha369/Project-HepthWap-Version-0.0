@@ -1,0 +1,75 @@
+/*1- BREAKPOINT  - 1030px */
+@media (max-width: 1030px) {
+  .logo {
+    height: 3.5rem;
+  }
+  .main-nav-list {
+    gap: 2.2rem;
+  }
+  .main-nav-link {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  #bigger-font {
+    font-size: 2.8rem;
+  }
+  .feedback-from-person {
+    font-size: 1.2rem;
+  }
+  .feedback-person-name {
+    font-size: 1.3rem;
+  }
+  .process {
+    height: 6rem;
+    padding-left: 0.2rem;
+    font-size: large;
+  }
+  .circle {
+    height: 2rem;
+    width: 2rem;
+  }
+  .email-icon {
+    font-size: large;
+  }
+  .email-id {
+    font-size: large;
+  }
+  .steps-box {
+    padding: 1rem;
+  }
+}
+/*2-BREAKPOINT - 930px */
+@media (max-width: 1030px) {
+  .section-about .container {
+    grid-template-columns: 1fr;
+  }
+
+  img.about-gif {
+    margin: auto;
+  }
+  .about-gif {
+    width: 55%;
+  }
+  .section-projects .container {
+    grid-template-columns: 1fr;
+  }
+  .section-testimonials .container {
+    grid-template-columns: 1fr;
+  }
+  .section-contact-us .container {
+    grid-template-columns: 1fr;
+  }
+  .footer-box {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .our-working-process-box,
+  .contact-form-box {
+    width: 60%;
+    padding: 1rem;
+  }
+}
+/* 3rd Break Point */
+@media (max-width: 450px) {
+}

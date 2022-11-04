@@ -3,7 +3,11 @@ body {
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
 }
-
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* HEADER */
 .logo {
   height: 4.4rem;
@@ -43,7 +47,7 @@ header {
 .section-about .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 130rem;
+  /* max-width: 130rem; */
   border: 2px solid gold;
   background-color: black;
 }
@@ -77,6 +81,9 @@ header {
 .icon {
   color: gold;
 }
+.image-text-box {
+  text-align: center;
+}
 /* setting vertical space */
 li:not(:last-child) {
   margin-bottom: 5px;
@@ -86,7 +93,7 @@ li:not(:last-child) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid gold;
-  max-width: 130rem;
+  /* max-width: 130rem; */
   background-color: black;
 }
 .heading-of-projects {
