@@ -398,3 +398,27 @@ a {
 .logo-div {
   text-align: center;
 }
+/* BUTTON UP STYLING */
+#navigation_div {
+  text-align: center;
+  margin-top: 25px;
+  background-color: firebrick;
+  border-radius: 5px;
+}
+/* UP BUTTON */
+#up {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  color: plum;
+  transition: transform 250ms;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px solid plum;
+}
+#up:hover {
+  transform: translateY(-10px);
+}
