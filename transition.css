@@ -1,0 +1,9 @@
+#sentence-transition {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+#sentence-transition:hover {
+  width: 0px;
+}

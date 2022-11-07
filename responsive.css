@@ -63,13 +63,7 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-  .our-working-process-box,
-  .contact-form-box {
-    width: 60%;
-    padding: 1rem;
-  }
 }
 /* 3rd Break Point */
-@media (max-width: 450px) {
+@media (max-width: 728px) {
 }
