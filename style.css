@@ -3,11 +3,6 @@ body {
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
 }
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 /* HEADER */
 .logo {
   height: 4.4rem;
@@ -243,14 +238,13 @@ i.fa.fa-quote-right {
 }
 
 .our-working-process-box {
-  border: 2px solid plum;
-  /* margin: 1rem; */
+  /* border: 2px solid plum; */
+  margin: 1rem;
   border-radius: 5px;
 }
 .contact-form-box {
-  border: 2px solid plum;
-  margin-top: 1rem;
   border-radius: 5px;
+  margin: auto;
 }
 .heading-of-working-process {
   text-align: center;
@@ -300,23 +294,25 @@ i.fa.fa-quote-right {
 }
 .form {
   background-color: plum;
-  border-radius: 10px;
-  /* margin: 4rem; */
+  /* border-radius: 10px; */
   display: flex;
   flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 .form-element {
-  /* margin: 2rem; */
   border: 2px solid gold;
   border-radius: 5px;
   height: 1.5rem;
   background-color: rgb(255, 253, 242);
+  margin-top: 1rem;
 }
 .textarea {
   /* margin: 2rem; */
   border: 2px solid gold;
   border-radius: 5px;
   background-color: rgb(255, 253, 242);
+  margin-top: 1rem;
 }
 .contact-submit-button {
   background-color: gold;
@@ -328,6 +324,7 @@ i.fa.fa-quote-right {
   /* margin: 2rem; */
   border-radius: 8px;
   border: 2px solid gold;
+  margin-top: 1rem;
 }
 .contact-submit-button:hover {
   background-color: purple;

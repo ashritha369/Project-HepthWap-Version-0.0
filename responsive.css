@@ -21,7 +21,7 @@
   }
   .process {
     height: 6rem;
-    padding-left: 0.2rem;
+    /* padding-left: 0.2rem; */
     font-size: large;
   }
   .circle {
@@ -33,9 +33,6 @@
   }
   .email-id {
     font-size: large;
-  }
-  .steps-box {
-    padding: 1rem;
   }
 }
 /*2-BREAKPOINT - 930px */
@@ -65,5 +62,38 @@
   }
 }
 /* 3rd Break Point */
-@media (max-width: 728px) {
+@media (max-width: 340px) {
+  .project-div {
+    margin: 5px auto;
+    border-style: 2px solid gold;
+    border-radius: 5px;
+  }
+  .feedback-box {
+    padding: 16px;
+  }
+  .form {
+    width: 10rem;
+  }
+
+  .project-div img {
+    border-radius: 0px;
+  }
+  .section-projects .container {
+    border-style: none;
+  }
+  body {
+    background-color: black;
+  }
+  .heading-of-about,
+  .heading-of-projects,
+  .heading-of-testimonials,
+  .heading-of-contact-us {
+    color: #fbb9fb;
+  }
+  .section-testimonials .container {
+    border-style: none;
+  }
+  .testmonial-box {
+    margin: 1rem auto;
+  }
 }
