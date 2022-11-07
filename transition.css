@@ -1,9 +1,13 @@
-#sentence-transition {
+/* #sentence-transition {
   transition-property: width;
   transition-duration: 2s;
   transition-timing-function: linear;
   transition-delay: 1s;
 }
-#sentence-transition:hover {
-  width: 0px;
+
+section#about {
+  transition: transform 4s, opacity 1s;
 }
+section#projects {
+  transition: transform 10s, opacity 1s;
+} */

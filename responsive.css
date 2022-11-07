@@ -60,6 +60,15 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .project-div {
+    margin: 1.4rem auto;
+    width: 75%;
+  }
+  #button-view-ckmExplorer,
+  #button-view-saiAccessories,
+  #button-view-healthyrise {
+    margin: 2rem auto;
+  }
 }
 /* 3rd Break Point */
 @media (max-width: 340px) {
