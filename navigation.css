@@ -1,5 +1,5 @@
 /* BUTTON UP STYLING */
-#navigation_div {
+#header_div {
   text-align: center;
   margin-top: 25px;
   border-radius: 5px;
@@ -20,4 +20,32 @@
 }
 #up:hover {
   transform: translateY(-10px);
+}
+/* ----------- */
+#menus-div {
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* ------------- */
+/* MOBILE NAVIGATION RESPONSIVENESS */
+@media (max-width: 750px) {
+  #menus-div {
+    /* position: absolute; */
+    width: 75%;
+    margin: auto;
+  }
+  header {
+    display: block;
+  }
+  .menu-nav-list {
+    display: block;
+  }
+  #header_div {
+    margin-top: unset !important;
+  }
+  img.logo {
+    margin-top: 1rem;
+  }
 }

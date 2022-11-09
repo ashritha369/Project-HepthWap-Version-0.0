@@ -3,10 +3,10 @@
   .logo {
     height: 3.5rem;
   }
-  .main-nav-list {
+  .menu-nav-list {
     gap: 2.2rem;
   }
-  .main-nav-link {
+  .menu-nav-link {
     font-weight: 500;
     font-size: 1.4rem;
   }
@@ -21,7 +21,6 @@
   }
   .process {
     height: 6rem;
-    /* padding-left: 0.2rem; */
     font-size: large;
   }
   .circle {
@@ -105,12 +104,17 @@
   .testmonial-box {
     margin: 1rem auto;
   }
-}
-
-@media (max-width: 750px) {
-  nav.main-nav {
-    margin: 1rem;
-    display: none;
-    pointer-events: none;
+  h1#bigger-font {
+    font-size: xx-large;
   }
 }
+/* 4th breakpoint */
+@media (max-width: 288px) {
+  header,
+  .section-about .container,
+  .section-contact-us .container,
+  .footer-box {
+    border: unset;
+  }
+}
+/* FIND MOBILE NAVIGATION RESPONSIVENESS in navigation.css */
