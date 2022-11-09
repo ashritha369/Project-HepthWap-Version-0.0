@@ -70,7 +70,7 @@
   }
 }
 /* 3rd Break Point */
-@media (max-width: 340px) {
+@media (max-width: 370px) {
   .project-div {
     margin: 5px auto;
     border-style: 2px solid gold;
