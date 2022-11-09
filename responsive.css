@@ -35,7 +35,7 @@
   }
 }
 /*2-BREAKPOINT - 930px */
-@media (max-width: 1030px) {
+@media (max-width: 930px) {
   .section-about .container {
     grid-template-columns: 1fr;
   }
@@ -70,7 +70,7 @@
   }
 }
 /* 3rd Break Point */
-@media (max-width: 370px) {
+@media (max-width: 430px) {
   .project-div {
     margin: 5px auto;
     border-style: 2px solid gold;
