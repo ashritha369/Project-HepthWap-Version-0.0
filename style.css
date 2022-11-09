@@ -2,8 +2,8 @@ body {
   background-color: beige;
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
-  /* max-width: 100%;
-  overflow-x: hidden !important; */
+  max-width: 100%;
+  overflow-x: hidden !important;
 }
 
 html {
