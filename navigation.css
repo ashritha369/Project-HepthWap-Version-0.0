@@ -1,0 +1,51 @@
+/* BUTTON UP STYLING */
+#header_div {
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+/* UP BUTTON */
+#up {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 100;
+  color: gold;
+  transition: transform 250ms;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px solid gold;
+}
+#up:hover {
+  transform: translateY(-10px);
+}
+/* ----------- */
+#menus-div {
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* ------------- */
+/* MOBILE NAVIGATION RESPONSIVENESS */
+@media (max-width: 750px) {
+  #menus-div {
+    /* position: absolute; */
+    width: 75%;
+    margin: auto;
+  }
+  header {
+    display: block;
+  }
+  .menu-nav-list {
+    display: block;
+  }
+  #header_div {
+    margin-top: unset !important;
+  }
+  img.logo {
+    margin-top: 1rem;
+  }
+}

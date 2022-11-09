@@ -2,13 +2,18 @@ body {
   background-color: beige;
   font-family: "Franklin Gothic Medium" "Poppins", sans-serif;
   color: white;
+  /* max-width: 100%;
+  overflow-x: hidden !important; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* HEADER */
 .logo {
   height: 4.4rem;
 }
-nav.main-nav {
+nav.menu-nav {
   margin: 1rem;
 }
 
@@ -20,30 +25,29 @@ header {
   align-items: center;
   color: gold;
 }
-.main-nav-list {
+.menu-nav-list {
   list-style: none;
   display: flex;
   gap: 3.2rem;
 }
-.main-nav-link {
+.menu-nav-link {
   text-decoration: none;
   color: gold;
   font-weight: 500;
   font-size: 1.8rem;
 }
-.main-nav-link:link,
-.main-nav-link:visited {
+.menu-nav-link:link,
+.menu-nav-link:visited {
   transition: all 0.3s;
 }
-.main-nav-link:hover,
-.main-nav-link:active {
+.menu-nav-link:hover,
+.menu-nav-link:active {
   color: rgb(255, 189, 255);
 }
 /* ABOUT SECTION */
 .section-about .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 130rem;
   border: 2px solid gold;
   background-color: black;
 }
@@ -54,7 +58,6 @@ header {
 }
 .about-gif {
   width: 100%;
-  /* background-color: black; */
   border-radius: 50px;
 }
 .about-text-box {
@@ -77,6 +80,9 @@ header {
 .icon {
   color: gold;
 }
+.image-text-box {
+  text-align: center;
+}
 /* setting vertical space */
 li:not(:last-child) {
   margin-bottom: 5px;
@@ -86,7 +92,6 @@ li:not(:last-child) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid gold;
-  max-width: 130rem;
   background-color: black;
 }
 .heading-of-projects {
@@ -235,11 +240,13 @@ i.fa.fa-quote-right {
   background-color: black;
 }
 
-.our-working-process-box,
-.contact-form-box {
-  border: 2px solid plum;
+.our-working-process-box {
   margin: 1rem;
   border-radius: 5px;
+}
+.contact-form-box {
+  border-radius: 5px;
+  margin: auto;
 }
 .heading-of-working-process {
   text-align: center;
@@ -272,7 +279,6 @@ i.fa.fa-quote-right {
   padding-left: 0.2rem;
   font-size: x-large;
   color: gold;
-  margin-top: 0.8rem;
 }
 .email-id-box {
   margin: 1.5rem;
@@ -289,23 +295,23 @@ i.fa.fa-quote-right {
 }
 .form {
   background-color: plum;
-  border-radius: 10px;
-  margin: 4rem;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 .form-element {
-  margin: 2rem;
   border: 2px solid gold;
   border-radius: 5px;
   height: 1.5rem;
   background-color: rgb(255, 253, 242);
+  margin-top: 1rem;
 }
 .textarea {
-  margin: 2rem;
   border: 2px solid gold;
   border-radius: 5px;
   background-color: rgb(255, 253, 242);
+  margin-top: 1rem;
 }
 .contact-submit-button {
   background-color: gold;
@@ -314,9 +320,9 @@ i.fa.fa-quote-right {
   font-size: large;
   font-weight: bold;
   color: purple;
-  margin: 2rem;
   border-radius: 8px;
   border: 2px solid gold;
+  margin-top: 1rem;
 }
 .contact-submit-button:hover {
   background-color: purple;

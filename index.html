@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="transition.css" />
+    <link rel="stylesheet" href="navigation.css" />
+
     <title>HepthWap- Helping People Through Web Apps</title>
     <!-- FONT STYLE -->
     <style>
@@ -19,23 +23,27 @@
     <!--  -->
   </head>
   <body>
-    <container class="container">
-      <header>
+    <div class="main-container">
+      <header id="header_div">
         <img class="logo" src="Images/logo.png" alt="hepthwap logo" />
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a href="#about" class="main-nav-link">About</a></li>
+        <div class="menu-nav" id="menus-div">
+          <ul class="menu-nav-list">
+            <li><a href="#about" class="menu-nav-link">About</a></li>
             <li>
-              <a href="#projects" class="main-nav-link">Projects</a>
+              <a href="#projects" class="menu-nav-link">Projects</a>
             </li>
             <li>
-              <a href="#testimonials" class="main-nav-link">Testimonials</a>
+              <a href="#testimonials" class="menu-nav-link">Testimonials</a>
             </li>
-            <li><a href="#contactus" class="main-nav-link">Contact Us</a></li>
+            <li><a href="#contactus" class="menu-nav-link">Contact Us</a></li>
           </ul>
-        </nav>
+        </div>
       </header>
       <main>
+        <a href="#header_div">
+          <b><ion-icon name="arrow-up-outline" id="up"></ion-icon></b
+        ></a>
+
         <!-- ABOUT -->
         <section class="section-about" id="about">
           <h1 class="heading-of-about">ABOUT</h1>
@@ -47,7 +55,7 @@
               </h1>
               <div class="about-description">
                 <ul class="icons-list medium-font">
-                  <li>
+                  <li id="sentence-transition">
                     <ion-icon name="bulb-outline" class="icon"></ion-icon>Your
                     <span class="span-color-gold">Idea </span>- Our solution !
                   </li>
@@ -251,7 +259,7 @@
                 />
 
                 <textarea name="textarea" rows="5" cols="40" class="textarea">
-Enter Your Message Here</textarea
+  Enter Your Message Here</textarea
                 >
                 <button type="submit" class="contact-submit-button">
                   SUBMIT
@@ -307,7 +315,8 @@ Enter Your Message Here</textarea
           />
         </div>
       </footer>
-    </container>
+    </div>
+
     <script src="./script.js"></script>
     <!-- icons -->
     <script
